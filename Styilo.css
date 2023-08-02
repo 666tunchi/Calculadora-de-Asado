@@ -1,0 +1,94 @@
+#asado{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,40,26,1) 10%, rgba(185,87,14,1) 28%, rgba(175,94,27,1) 41%, rgba(100,145,125,1) 74%, rgba(97,147,129,1) 84%, rgba(77,160,155,1) 89%, rgba(0,212,255,1) 100%);
+}
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+
+@media only screen   
+and (min-width : 375px)   {
+    .listin{
+        margin: 15px;
+        padding: 5px;
+    }
+    #bebidas{
+        margin: 30px;
+        padding: 20px;
+    }
+    
+    .formu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+        }
+    #asadito{
+        width: 150px;
+    }
+
+}
+
+@media only screen   
+and (min-width : 445px)  {
+    .listin{
+        margin: 30px;
+        padding: 20px;
+    }
+    #bebidas{
+        margin: 30px;
+        padding: 20px;
+    }
+    .formu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 5px;
+        size-adjust: 30%;
+        height:50%;
+        }
+    #asadito{
+        width: 200px;
+    }
+    body{
+        margin: 0px;        
+    }
+
+}
+
+
+@media only screen   
+and (min-width : 768px)   
+{
+.listin{
+    margin: 30px;
+    padding: 20px;
+}
+#bebidas{
+    margin: 30px;
+    padding: 20px; 
+}
+.formu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 30%;
+    height:80%;
+    }
+#asadito{
+    width: 300px;
+}
+}
